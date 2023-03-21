@@ -1,6 +1,10 @@
+.body {
+  margin-left: 15%;
+  margin-right: 15%;
+}
 .conteiner-logo {
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 8em;
   background-color: rgba(175, 174, 174, 0.609);
 }
 
@@ -42,18 +46,23 @@
   display: flex;
   flex-wrap: wrap;
   position: relative;
+  background-color: rgb(89, 89, 89);
+  color: #a0a0a0;
 }
 
 .content {
   display: none;
   width: 100%;
   padding: 20px;
-  background-color: #eee;
+  background-color: #ffffff;
 }
 
 .tab {
   text-align: center;
-  padding: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 0;
   flex-basis: 29.8%;
 }
 
@@ -83,4 +92,31 @@
 }
 #tab_3:checked ~ .content_tabs_3 {
   display: block;
+}
+
+.homeTasks_container {
+  margin-left: 30%;
+}
+
+.vertical_navigation {
+  margin-top: -20%;
+  background-color: #ede8e8be;
+  width: 20%;
+  height: 500px;
+}
+
+.text_color {
+  color: black;
+}
+
+.div_background_vertical_nav {
+  background-color: #808080;
+  width: 100%;
+  left: 10%;
+}
+
+.bottom_line {
+  width: 100%;
+  height: 3em;
+  background-color: rgba(175, 174, 174, 0.609);
 }
