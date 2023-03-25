@@ -182,8 +182,18 @@ a{
 
 
 
-@media only screen and (max-width: 600px) {
-    .conteiner_img>img{
+@media only screen and (max-width: 500px) {
+
+    .container_logo{
+        width: 375px;
+    }
+
+    .tabs_page {
+
+        width: 375px;
+    }
+
+    .container_img>img{
         width: 100px;
     }
 
@@ -194,4 +204,42 @@ a{
     .logo_text>h3 {
         font-size: 12px;
     }
+
+    .tab_positions>ul>li>a{
+        font-size: 15px;
+    }
+
+    .bottom_container{
+
+        width: 375px;
+    }
+    .vert_container{
+
+        height: 700px;
+        width: 200px;
+    }
+    .vert_navigations_container>nav>a{
+
+        font-size: 15px;
+
+    }
+    .tab2_page{
+        margin-left: 10px;
+        width: 375px;
+    }
+    .tab2_page>h2{
+        font-size: 20px;
+    }
+    .tab2_page>p {
+        font-size: 10px;
+    }
+    
+    .tab2_page>h3{
+        font-size: 15px;
+    }
+    
+    .tab2_page>ul>li{
+        font-size: 10px;
+    }
+    
 }
