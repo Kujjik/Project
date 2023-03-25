@@ -102,9 +102,7 @@ a{
 
 /*Tab_2*/
 .tab_2_content {
-    margin: 50px;
-    margin-right: 0;
-    margin-left: 20px;
+    margin: 50px 0 50px 20px;
     font-size: 30px;
 }
 
@@ -125,10 +123,9 @@ a{
 }
 
 .vert_navigations_container>nav{
-    margin: 5px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px 5px 20px 5px;
 }
+
 .vert_navigations_container>nav>a{
     color: #fff;
     font-size: 20px;
