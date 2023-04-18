@@ -60,7 +60,11 @@ body {
 .li-tab-positions{
     display: flex;
     list-style-type: none;
+    width: 105px;
+    height: 30px;
+    background-color: #000;
 }
+
 .tab-font-style{
     display: flex;
     justify-content: center;
@@ -71,14 +75,10 @@ body {
     color: #f0f8ff;
     text-decoration: none;
 }
-.boreder-tab{
-    background-color: #000;
+.li-tab-positions:hover{
+    background-color: #fff;
 }
 
-.boreder-tab:hover,
-.boreder-tab:focus {
-  background-color: #fff;
-}
 .tab-font-style:hover,
 .tab-font-style:focus{
     color: #000;
